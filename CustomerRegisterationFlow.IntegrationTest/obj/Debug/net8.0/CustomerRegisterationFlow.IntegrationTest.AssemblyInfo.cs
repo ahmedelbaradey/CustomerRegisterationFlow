@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomerRegisterationFlow.IntegrationTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68bb567abaa04e5efb374e66686e8d00cbcb2890")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58256cfe2df5e9f772dbe7af5d1746d1e50904f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomerRegisterationFlow.IntegrationTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomerRegisterationFlow.IntegrationTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

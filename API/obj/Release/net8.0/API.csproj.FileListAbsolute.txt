@@ -203,3 +203,8 @@ C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\refint\API.dll
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\API.pdb
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\API.genruntimeconfig.cache
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\ref\API.dll
+C:\Workspace\CustomerRegisterationFlow\API\bin\Release\net8.0\CustomerRegisterationFlow.Resources.dll
+C:\Workspace\CustomerRegisterationFlow\API\bin\Release\net8.0\CustomerRegisterationFlow.Resources.pdb
+C:\Workspace\CustomerRegisterationFlow\API\bin\Release\net8.0\ar-EG\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\API\bin\Release\net8.0\en-US\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\API.sourcelink.json

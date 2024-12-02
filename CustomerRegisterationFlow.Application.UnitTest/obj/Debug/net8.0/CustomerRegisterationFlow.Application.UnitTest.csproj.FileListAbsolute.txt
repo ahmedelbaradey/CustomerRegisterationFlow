@@ -245,3 +245,8 @@ C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application.Uni
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application.UnitTest\bin\Debug\net8.0\NLog.dll
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application.UnitTest\bin\Debug\net8.0\CustomerRegisterationFlow.LoggerService.dll
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application.UnitTest\bin\Debug\net8.0\CustomerRegisterationFlow.LoggerService.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application.UnitTest\bin\Debug\net8.0\CustomerRegisterationFlow.Resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application.UnitTest\bin\Debug\net8.0\CustomerRegisterationFlow.Resources.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application.UnitTest\bin\Debug\net8.0\ar-EG\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application.UnitTest\bin\Debug\net8.0\en-US\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application.UnitTest\obj\Debug\net8.0\CustomerRegisterationFlow.Application.UnitTest.sourcelink.json

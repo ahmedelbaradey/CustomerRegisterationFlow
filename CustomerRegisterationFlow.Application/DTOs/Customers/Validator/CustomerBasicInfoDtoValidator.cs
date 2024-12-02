@@ -1,5 +1,7 @@
 ﻿using FluentValidation;
 using CustomerRegisterationFlow.Application.Contracts.Presistence;
+using CustomerRegisterationFlow.Resources;
+using Microsoft.Extensions.Localization;
 
 
 namespace CustomerRegisterationFlow.Application.DTOs.Customers.Validators
@@ -7,9 +9,11 @@ namespace CustomerRegisterationFlow.Application.DTOs.Customers.Validators
     public class CustomerBasicInfoDtoValidator : AbstractValidator<CustomerBasicInfoDto>
     {
         private readonly ICustomerRepository _customerRepository;
-        public CustomerBasicInfoDtoValidator(ICustomerRepository customerRepository)
+        private readonly IStringLocalizer<SharedResources> _localizer;
+        public CustomerBasicInfoDtoValidator(ICustomerRepository customerRepository, IStringLocalizer<SharedResources> localizer)
         {
             _customerRepository = customerRepository;
+            _localizer = localizer;
             Include(new BaseCustomerDtoValidator(_customerRepository));
             RuleFor(c => c.Name)
                .NotEmpty().WithMessage("{PropertyName} is Required")
@@ -26,8 +30,8 @@ namespace CustomerRegisterationFlow.Application.DTOs.Customers.Validators
               }).WithMessage("{PropertyName} is exist");
 
             RuleFor(c => c.Email)
-                .NotEmpty().WithMessage("{PropertyName} is Required")
-                .NotNull().WithMessage("{PropertyName} is Required")
+                .NotEmpty().WithMessage(_localizer[SharedResourcesKey.EmptyEmailValidation])
+                .NotNull().WithMessage(_localizer[SharedResourcesKey.EmptyEmailValidation])
                 .EmailAddress().WithMessage("A valid {PropertyName} is required")
                 .MustAsync(async (email, token) =>
                 {

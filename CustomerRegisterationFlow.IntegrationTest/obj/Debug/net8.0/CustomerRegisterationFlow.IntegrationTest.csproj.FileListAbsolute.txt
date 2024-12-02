@@ -231,3 +231,8 @@ C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.IntegrationTest
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.IntegrationTest\bin\Debug\net8.0\CustomerRegisterationFlow.Presistence.dll
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.IntegrationTest\bin\Debug\net8.0\CustomerRegisterationFlow.Presistence.pdb
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.IntegrationTest\bin\Debug\net8.0\CustomerRegisterationFlow.LoggerService.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.IntegrationTest\bin\Debug\net8.0\CustomerRegisterationFlow.Resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.IntegrationTest\bin\Debug\net8.0\CustomerRegisterationFlow.Resources.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.IntegrationTest\bin\Debug\net8.0\ar-EG\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.IntegrationTest\bin\Debug\net8.0\en-US\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.IntegrationTest\obj\Debug\net8.0\CustomerRegisterationFlow.IntegrationTest.sourcelink.json

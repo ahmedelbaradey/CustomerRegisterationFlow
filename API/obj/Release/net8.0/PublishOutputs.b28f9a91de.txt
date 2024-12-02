@@ -94,10 +94,14 @@ C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\Custome
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.LoggerService.dll
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.Presentation.dll
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.Presistence.dll
+C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.Resources.dll
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.Application.pdb
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.Infrastructure.pdb
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.Presentation.pdb
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.Presistence.pdb
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.LoggerService.pdb
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.Domain.pdb
+C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\CustomerRegisterationFlow.Resources.pdb
+C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\ar-EG\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\en-US\CustomerRegisterationFlow.Resources.resources.dll
 C:\Workspace\CustomerRegisterationFlow\API\obj\Release\net8.0\PubTmp\Out\API.deps.json

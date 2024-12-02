@@ -8,6 +8,8 @@ using CustomerRegisterationFlow.Application.Contracts.Infrastructure;
 using AutoWrapper.Wrappers;
 using CustomerRegisterationFlow.Application.DTOs.Customers;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Localization;
+using CustomerRegisterationFlow.Resources;
 
 namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.AddCustomerBasicInfo
 {
@@ -18,17 +20,19 @@ namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.AddC
         private readonly IMapper _mapper;
         private readonly ITOTP _iTOTP;
         private readonly ILoggerManager _loggerManager;
-        public AddCustomerBasicInfoCommandHandler(IUnitOfWork unitOfWork, IMapper mapper, ITOTP iTOTP, ILoggerManager loggerManager)
+        private readonly IStringLocalizer<SharedResources> _localizer;
+        public AddCustomerBasicInfoCommandHandler(IUnitOfWork unitOfWork, IMapper mapper, ITOTP iTOTP, ILoggerManager loggerManager, IStringLocalizer<SharedResources> localizer)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             _iTOTP = iTOTP;
             _loggerManager = loggerManager;
+            _localizer = localizer;
         }
 
         public async Task<IBaseResponse> Handle(AddCustomerBasicInfoCommand request, CancellationToken cancellationToken)
         {
-            var validator = new CustomerBasicInfoDtoValidator(_unitOfWork.CustomerRepository);
+            var validator = new CustomerBasicInfoDtoValidator(_unitOfWork.CustomerRepository, _localizer);
             var validationResult = await validator.ValidateAsync(request.CustomerBasicInfoDto);
             if (request.CustomerBasicInfoDto != null && validationResult.IsValid)
             {

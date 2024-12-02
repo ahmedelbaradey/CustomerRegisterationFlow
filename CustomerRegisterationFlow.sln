@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerRegisterationFlow.LoggerService", "LoggerService\CustomerRegisterationFlow.LoggerService.csproj", "{49F876FC-5F69-4E0F-B548-C0A9846D44DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerRegisterationFlow.Resources", "CustomerRegisterationFlow.Resources\CustomerRegisterationFlow.Resources.csproj", "{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{49F876FC-5F69-4E0F-B548-C0A9846D44DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49F876FC-5F69-4E0F-B548-C0A9846D44DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49F876FC-5F69-4E0F-B548-C0A9846D44DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{1F617897-8A43-4FA0-AF93-E68DF1D467EB} = {EC3289D3-D18D-434D-9633-C5715FB0F5BA}
 		{48BD774B-86AD-40A6-8AA2-2BD51C3E3387} = {115885EA-8CF8-42D8-A4F2-998170EB8952}
 		{49F876FC-5F69-4E0F-B548-C0A9846D44DB} = {2700AEA7-66A4-4DFA-AC30-1CE71954F5FC}
+		{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331} = {340EE0AB-8F5E-4220-AD77-FC8E898249E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39E6AA7C-516F-407A-B172-89BEAD75BD2D}

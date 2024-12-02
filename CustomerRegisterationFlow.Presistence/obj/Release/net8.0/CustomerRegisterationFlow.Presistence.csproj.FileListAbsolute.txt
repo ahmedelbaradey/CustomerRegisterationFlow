@@ -19,3 +19,8 @@ C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presistence\obj
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presistence\obj\Release\net8.0\CustomerRegisterationFlow.Presistence.pdb
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presistence\obj\Release\net8.0\CustomerRegisterationFlow.Presistence.genruntimeconfig.cache
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presistence\obj\Release\net8.0\ref\CustomerRegisterationFlow.Presistence.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presistence\bin\Release\net8.0\CustomerRegisterationFlow.Resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presistence\bin\Release\net8.0\CustomerRegisterationFlow.Resources.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presistence\bin\Release\net8.0\ar-EG\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presistence\bin\Release\net8.0\en-US\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presistence\obj\Release\net8.0\CustomerRegisterationFlow.Presistence.sourcelink.json

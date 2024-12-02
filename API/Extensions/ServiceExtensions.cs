@@ -1,6 +1,8 @@
 ﻿using Asp.Versioning;
 using AspNetCoreRateLimit;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.OpenApi.Models;
+using System.Globalization;
 
 namespace API.Extensions
 {
@@ -26,6 +28,21 @@ namespace API.Extensions
             services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
             services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
             services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrategy>();
+        }
+        public static void ConfigureLocalization(this IServiceCollection services)
+        {
+            services.AddLocalization(opt =>
+            {
+                opt.ResourcesPath = "";
+            });
+
+            services.Configure<RequestLocalizationOptions>(opt => 
+            { 
+            List<CultureInfo> locales = new List<CultureInfo> { new CultureInfo("en-US"), new CultureInfo("ar-EG"), };
+                opt.DefaultRequestCulture = new RequestCulture("ar-EG");
+                opt.SupportedCultures = locales;
+                opt.SupportedUICultures = locales;
+            });
         }
         public static void ConfigureVersioning(this IServiceCollection services)
         {

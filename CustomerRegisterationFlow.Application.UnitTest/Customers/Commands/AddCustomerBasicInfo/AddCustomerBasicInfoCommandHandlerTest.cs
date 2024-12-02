@@ -8,6 +8,8 @@ using CustomerRegisterationFlow.Application.Responses;
 using CustomerRegisterationFlow.Infrastructure.OTP;
 using CustomerRegisterationFlow.IntegrationTest.Mocks;
 using CustomerRegisterationFlow.LoggerService;
+using CustomerRegisterationFlow.Resources;
+using Microsoft.Extensions.Localization;
 using Moq;
 using Shouldly;
 using Xunit;
@@ -19,7 +21,7 @@ namespace CustomerRegisterationFlow.IntegrationTest.Customers.Commands.AddCustom
     {
         private readonly IMapper _mapper;
         private readonly Mock<TOTP> _iTOTP;
- 
+        private readonly Mock<IStringLocalizer<SharedResources>> _localizer;
         private readonly Mock<IUnitOfWork> _mockUow;
         private readonly Mock<LoggerManager> _mocklogger;
         private readonly CustomerBasicInfoDto _customerBasicInfoDtoDto;
@@ -33,9 +35,10 @@ namespace CustomerRegisterationFlow.IntegrationTest.Customers.Commands.AddCustom
                 c.AddProfile<MappingProfile>();
             });
             _iTOTP = new Mock<TOTP>();
+            _localizer = new Mock<IStringLocalizer<SharedResources>>();
             _mocklogger = new Mock<LoggerManager>();
              _mapper = mapperConfig.CreateMapper();
-            _handler = new AddCustomerBasicInfoCommandHandler(_mockUow.Object, _mapper,_iTOTP.Object, _mocklogger.Object);
+            _handler = new AddCustomerBasicInfoCommandHandler(_mockUow.Object, _mapper,_iTOTP.Object, _mocklogger.Object, _localizer.Object);
             _customerBasicInfoDtoDto = new CustomerBasicInfoDto
             {
                     ICNumber = 13894444,

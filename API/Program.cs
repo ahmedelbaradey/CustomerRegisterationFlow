@@ -19,7 +19,7 @@ LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentD
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
 builder.Services.ConfigureVersioning();
-
+builder.Services.ConfigureLocalization();
 // Add services to the container.
 builder.Services.AddControllers().AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
 builder.Services.AddScoped<ValidationFilterAttribute>();
@@ -54,6 +54,8 @@ app.ConfigureExceptionHandler(logger);
 if (app.Environment.IsProduction())
     app.UseHsts();
 
+var options = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
+app.UseRequestLocalization(options.Value);
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseApiResponseAndExceptionWrapper<MapResponse>(new AutoWrapperOptions { UseCustomSchema = true, ShowStatusCode = true });

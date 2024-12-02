@@ -9,3 +9,4 @@ C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Domain\obj\Rele
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Domain\obj\Release\net8.0\refint\CustomerRegisterationFlow.Domain.dll
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Domain\obj\Release\net8.0\CustomerRegisterationFlow.Domain.pdb
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Domain\obj\Release\net8.0\ref\CustomerRegisterationFlow.Domain.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Domain\obj\Release\net8.0\CustomerRegisterationFlow.Domain.sourcelink.json

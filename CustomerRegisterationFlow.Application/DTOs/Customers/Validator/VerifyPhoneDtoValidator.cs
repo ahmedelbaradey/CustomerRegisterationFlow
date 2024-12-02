@@ -16,8 +16,8 @@ namespace CustomerRegisterationFlow.Application.DTOs.Customers.Validators
             RuleFor(c => c.TOTP)
               .NotEmpty().WithMessage("{PropertyName} is Required")
               .NotNull().WithMessage("{PropertyName} is Required")
-              .MaximumLength(4).WithMessage("{PropertyName} must be 6 digits")
-              .MinimumLength(4).WithMessage("{PropertyName}  must be 6 digits")
+              .MaximumLength(4).WithMessage("{PropertyName} must be 4 digits")
+              .MinimumLength(4).WithMessage("{PropertyName}  must be 4 digits")
               .Must(ValidateTOTP).WithMessage("{PropertyName} not valid or expired");
         }
         private bool ValidateTOTP(VerifyPhoneDto verifyPhoneDto, string _TOTP)

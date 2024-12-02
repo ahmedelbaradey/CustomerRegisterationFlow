@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomerRegisterationFlow.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58256cfe2df5e9f772dbe7af5d1746d1e50904f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomerRegisterationFlow.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomerRegisterationFlow.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

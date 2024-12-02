@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CustomerRegisterationFlow.Domain\CustomerRegisterationFlow.Domain.csproj" />
+    <ProjectReference Include="..\CustomerRegisterationFlow.Resources\CustomerRegisterationFlow.Resources.csproj" />
   </ItemGroup>
 
 </Project>

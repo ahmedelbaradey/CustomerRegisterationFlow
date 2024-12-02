@@ -13,3 +13,8 @@ C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application\obj
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application\obj\Debug\net8.0\refint\CustomerRegisterationFlow.Application.dll
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application\obj\Debug\net8.0\CustomerRegisterationFlow.Application.pdb
 C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application\obj\Debug\net8.0\ref\CustomerRegisterationFlow.Application.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application\bin\Debug\net8.0\CustomerRegisterationFlow.Resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application\bin\Debug\net8.0\CustomerRegisterationFlow.Resources.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application\bin\Debug\net8.0\ar-EG\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application\bin\Debug\net8.0\en-US\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Application\obj\Debug\net8.0\CustomerRegisterationFlow.Application.sourcelink.json

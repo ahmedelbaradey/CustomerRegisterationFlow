@@ -1268,6 +1268,7 @@
           "AutoMapper": "13.0.1",
           "AutoWrapper.Core": "4.5.1",
           "CustomerRegisterationFlow.Domain": "1.0.0",
+          "CustomerRegisterationFlow.Resources": "1.0.0",
           "FluentValidation": "11.11.0",
           "MediatR": "12.4.1"
         },
@@ -1313,6 +1314,19 @@
         },
         "runtime": {
           "CustomerRegisterationFlow.Presistence.dll": {}
+        }
+      },
+      "CustomerRegisterationFlow.Resources/1.0.0": {
+        "runtime": {
+          "CustomerRegisterationFlow.Resources.dll": {}
+        },
+        "resources": {
+          "ar-EG/CustomerRegisterationFlow.Resources.resources.dll": {
+            "locale": "ar-EG"
+          },
+          "en-US/CustomerRegisterationFlow.Resources.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     }
@@ -2058,6 +2072,11 @@
       "sha512": ""
     },
     "CustomerRegisterationFlow.Presistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomerRegisterationFlow.Resources/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

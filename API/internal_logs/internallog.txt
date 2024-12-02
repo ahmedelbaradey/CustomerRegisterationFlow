@@ -1381,3 +1381,357 @@
 2024-12-02 12:13:48.3876 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
 2024-12-02 12:13:48.3876 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
 2024-12-02 12:13:48.4047 Info Configuration initialized.
+2024-12-02 14:19:59.3598 Debug Message Template Auto Format enabled
+2024-12-02 14:19:59.4379 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 14:19:59.4379 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 14:19:59.4771 Trace ParseRulesElement
+2024-12-02 14:19:59.4771 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 14:19:59.4771 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 14:19:59.4771 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 14:19:59.4771 Debug --- NLog configuration dump ---
+2024-12-02 14:19:59.4915 Debug Targets:
+2024-12-02 14:19:59.4915 Debug Rules:
+2024-12-02 14:19:59.4915 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 14:19:59.4915 Debug --- End of NLog configuration dump ---
+2024-12-02 14:19:59.4915 Trace FindReachableObject<System.Object>:
+2024-12-02 14:19:59.5090 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 14:19:59.5090 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 14:19:59.5090 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 14:19:59.5090 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 14:19:59.5090 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 14:19:59.5090 Info Configuration initialized.
+2024-12-02 14:20:27.9592 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 14:21:12.8780 Debug Message Template Auto Format enabled
+2024-12-02 14:21:12.9319 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 14:21:12.9319 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 14:21:12.9621 Trace ParseRulesElement
+2024-12-02 14:21:12.9621 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 14:21:12.9621 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 14:21:12.9621 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 14:21:12.9621 Debug --- NLog configuration dump ---
+2024-12-02 14:21:12.9621 Debug Targets:
+2024-12-02 14:21:12.9769 Debug Rules:
+2024-12-02 14:21:12.9769 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 14:21:12.9769 Debug --- End of NLog configuration dump ---
+2024-12-02 14:21:12.9769 Trace FindReachableObject<System.Object>:
+2024-12-02 14:21:12.9769 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 14:21:12.9769 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 14:21:12.9928 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 14:21:12.9928 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 14:21:12.9928 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 14:21:12.9928 Info Configuration initialized.
+2024-12-02 14:21:22.2007 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 14:31:37.5086 Debug Message Template Auto Format enabled
+2024-12-02 14:31:37.5705 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 14:31:37.5705 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 14:31:37.6040 Trace ParseRulesElement
+2024-12-02 14:31:37.6040 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 14:31:37.6040 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 14:31:37.6142 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 14:31:37.6142 Debug --- NLog configuration dump ---
+2024-12-02 14:31:37.6142 Debug Targets:
+2024-12-02 14:31:37.6142 Debug Rules:
+2024-12-02 14:31:37.6142 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 14:31:37.6142 Debug --- End of NLog configuration dump ---
+2024-12-02 14:31:37.6142 Trace FindReachableObject<System.Object>:
+2024-12-02 14:31:37.6142 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 14:31:37.6273 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 14:31:37.6273 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 14:31:37.6273 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 14:31:37.6273 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 14:31:37.6273 Info Configuration initialized.
+2024-12-02 14:31:45.9571 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 14:38:27.9359 Debug Message Template Auto Format enabled
+2024-12-02 14:38:27.9878 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 14:38:27.9878 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 14:38:28.0214 Trace ParseRulesElement
+2024-12-02 14:38:28.0245 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 14:38:28.0245 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 14:38:28.0245 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 14:38:28.0245 Debug --- NLog configuration dump ---
+2024-12-02 14:38:28.0245 Debug Targets:
+2024-12-02 14:38:28.0245 Debug Rules:
+2024-12-02 14:38:28.0245 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 14:38:28.0245 Debug --- End of NLog configuration dump ---
+2024-12-02 14:38:28.0245 Trace FindReachableObject<System.Object>:
+2024-12-02 14:38:28.0407 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 14:38:28.0407 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 14:38:28.0407 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 14:38:28.0407 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 14:38:28.0407 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 14:38:28.0407 Info Configuration initialized.
+2024-12-02 14:38:41.8474 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 14:46:57.5248 Debug Message Template Auto Format enabled
+2024-12-02 14:46:57.5644 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 14:46:57.5644 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 14:46:57.5935 Trace ParseRulesElement
+2024-12-02 14:46:57.5935 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 14:46:57.5935 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 14:46:57.5935 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 14:46:57.5935 Debug --- NLog configuration dump ---
+2024-12-02 14:46:57.5935 Debug Targets:
+2024-12-02 14:46:57.5935 Debug Rules:
+2024-12-02 14:46:57.6094 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 14:46:57.6094 Debug --- End of NLog configuration dump ---
+2024-12-02 14:46:57.6094 Trace FindReachableObject<System.Object>:
+2024-12-02 14:46:57.6094 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 14:46:57.6094 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 14:46:57.6094 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 14:46:57.6094 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 14:46:57.6235 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 14:46:57.6235 Info Configuration initialized.
+2024-12-02 14:47:05.9240 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 14:52:12.3625 Debug Message Template Auto Format enabled
+2024-12-02 14:52:12.4012 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 14:52:12.4012 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 14:52:12.4291 Trace ParseRulesElement
+2024-12-02 14:52:12.4291 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 14:52:12.4291 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 14:52:12.4291 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 14:52:12.4405 Debug --- NLog configuration dump ---
+2024-12-02 14:52:12.4405 Debug Targets:
+2024-12-02 14:52:12.4405 Debug Rules:
+2024-12-02 14:52:12.4405 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 14:52:12.4405 Debug --- End of NLog configuration dump ---
+2024-12-02 14:52:12.4405 Trace FindReachableObject<System.Object>:
+2024-12-02 14:52:12.4405 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 14:52:12.4405 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 14:52:12.4405 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 14:52:12.4405 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 14:52:12.4565 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 14:52:12.4565 Info Configuration initialized.
+2024-12-02 14:52:24.8573 Debug Message Template Auto Format enabled
+2024-12-02 14:52:24.8998 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 14:52:24.8998 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 14:52:24.9289 Trace ParseRulesElement
+2024-12-02 14:52:24.9289 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 14:52:24.9289 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 14:52:24.9289 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 14:52:24.9289 Debug --- NLog configuration dump ---
+2024-12-02 14:52:24.9289 Debug Targets:
+2024-12-02 14:52:24.9406 Debug Rules:
+2024-12-02 14:52:24.9406 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 14:52:24.9406 Debug --- End of NLog configuration dump ---
+2024-12-02 14:52:24.9406 Trace FindReachableObject<System.Object>:
+2024-12-02 14:52:24.9406 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 14:52:24.9406 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 14:52:24.9406 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 14:52:24.9406 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 14:52:24.9406 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 14:52:24.9406 Info Configuration initialized.
+2024-12-02 14:52:48.2649 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 14:56:22.2503 Debug Message Template Auto Format enabled
+2024-12-02 14:56:22.3131 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 14:56:22.3131 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 14:56:22.3428 Trace ParseRulesElement
+2024-12-02 14:56:22.3428 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 14:56:22.3507 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 14:56:22.3507 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 14:56:22.3507 Debug --- NLog configuration dump ---
+2024-12-02 14:56:22.3507 Debug Targets:
+2024-12-02 14:56:22.3507 Debug Rules:
+2024-12-02 14:56:22.3507 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 14:56:22.3507 Debug --- End of NLog configuration dump ---
+2024-12-02 14:56:22.3507 Trace FindReachableObject<System.Object>:
+2024-12-02 14:56:22.3507 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 14:56:22.3668 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 14:56:22.3668 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 14:56:22.3668 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 14:56:22.3668 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 14:56:22.3668 Info Configuration initialized.
+2024-12-02 14:57:15.0054 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 14:57:51.7524 Debug Message Template Auto Format enabled
+2024-12-02 14:57:51.8009 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 14:57:51.8009 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 14:57:51.8307 Trace ParseRulesElement
+2024-12-02 14:57:51.8359 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 14:57:51.8359 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 14:57:51.8359 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 14:57:51.8359 Debug --- NLog configuration dump ---
+2024-12-02 14:57:51.8359 Debug Targets:
+2024-12-02 14:57:51.8359 Debug Rules:
+2024-12-02 14:57:51.8359 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 14:57:51.8359 Debug --- End of NLog configuration dump ---
+2024-12-02 14:57:51.8359 Trace FindReachableObject<System.Object>:
+2024-12-02 14:57:51.8542 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 14:57:51.8542 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 14:57:51.8542 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 14:57:51.8542 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 14:57:51.8542 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 14:57:51.8542 Info Configuration initialized.
+2024-12-02 15:03:08.7695 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 15:23:28.1313 Debug Message Template Auto Format enabled
+2024-12-02 15:23:28.1935 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 15:23:28.1935 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 15:23:28.2241 Trace ParseRulesElement
+2024-12-02 15:23:28.2241 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 15:23:28.2241 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 15:23:28.2338 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 15:23:28.2338 Debug --- NLog configuration dump ---
+2024-12-02 15:23:28.2338 Debug Targets:
+2024-12-02 15:23:28.2338 Debug Rules:
+2024-12-02 15:23:28.2338 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 15:23:28.2338 Debug --- End of NLog configuration dump ---
+2024-12-02 15:23:28.2338 Trace FindReachableObject<System.Object>:
+2024-12-02 15:23:28.2338 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 15:23:28.2338 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 15:23:28.2338 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 15:23:28.2338 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 15:23:28.2338 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 15:23:28.2511 Info Configuration initialized.
+2024-12-02 15:23:45.6330 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 15:24:03.8008 Debug Message Template Auto Format enabled
+2024-12-02 15:24:03.8448 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 15:24:03.8448 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 15:24:03.8741 Trace ParseRulesElement
+2024-12-02 15:24:03.8772 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 15:24:03.8772 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 15:24:03.8772 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 15:24:03.8772 Debug --- NLog configuration dump ---
+2024-12-02 15:24:03.8772 Debug Targets:
+2024-12-02 15:24:03.8772 Debug Rules:
+2024-12-02 15:24:03.8772 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 15:24:03.8772 Debug --- End of NLog configuration dump ---
+2024-12-02 15:24:03.8918 Trace FindReachableObject<System.Object>:
+2024-12-02 15:24:03.8918 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 15:24:03.8918 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 15:24:03.8918 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 15:24:03.8918 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 15:24:03.8918 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 15:24:03.8918 Info Configuration initialized.
+2024-12-02 15:24:35.4300 Debug Message Template Auto Format enabled
+2024-12-02 15:24:35.4721 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 15:24:35.4721 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 15:24:35.5006 Trace ParseRulesElement
+2024-12-02 15:24:35.5006 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 15:24:35.5006 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 15:24:35.5006 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 15:24:35.5006 Debug --- NLog configuration dump ---
+2024-12-02 15:24:35.5006 Debug Targets:
+2024-12-02 15:24:35.5006 Debug Rules:
+2024-12-02 15:24:35.5006 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 15:24:35.5166 Debug --- End of NLog configuration dump ---
+2024-12-02 15:24:35.5166 Trace FindReachableObject<System.Object>:
+2024-12-02 15:24:35.5166 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 15:24:35.5166 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 15:24:35.5166 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 15:24:35.5166 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 15:24:35.5166 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 15:24:35.5323 Info Configuration initialized.
+2024-12-02 15:24:52.1921 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager
+2024-12-02 15:52:31.7044 Debug Message Template Auto Format enabled
+2024-12-02 15:52:31.7589 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 15:52:31.7589 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 15:52:31.7874 Trace ParseRulesElement
+2024-12-02 15:52:31.7906 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 15:52:31.7906 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 15:52:31.7906 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 15:52:31.7906 Debug --- NLog configuration dump ---
+2024-12-02 15:52:31.7906 Debug Targets:
+2024-12-02 15:52:31.7906 Debug Rules:
+2024-12-02 15:52:31.7906 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 15:52:31.7906 Debug --- End of NLog configuration dump ---
+2024-12-02 15:52:31.7906 Trace FindReachableObject<System.Object>:
+2024-12-02 15:52:31.8070 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 15:52:31.8070 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 15:52:31.8070 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 15:52:31.8070 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 15:52:31.8070 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 15:52:31.8070 Info Configuration initialized.
+2024-12-02 16:00:59.5654 Debug Message Template Auto Format enabled
+2024-12-02 16:00:59.6136 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 16:00:59.6136 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 16:00:59.6277 Trace ParseRulesElement
+2024-12-02 16:00:59.6277 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 16:00:59.6277 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 16:00:59.6467 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 16:00:59.6467 Debug --- NLog configuration dump ---
+2024-12-02 16:00:59.6467 Debug Targets:
+2024-12-02 16:00:59.6467 Debug Rules:
+2024-12-02 16:00:59.6467 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 16:00:59.6577 Debug --- End of NLog configuration dump ---
+2024-12-02 16:00:59.6577 Trace FindReachableObject<System.Object>:
+2024-12-02 16:00:59.6725 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 16:00:59.6725 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 16:00:59.6725 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 16:00:59.6725 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 16:00:59.6725 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 16:00:59.6725 Info Configuration initialized.
+2024-12-02 16:01:00.3093 Debug Message Template Auto Format enabled
+2024-12-02 16:01:00.3602 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 16:01:00.3602 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 16:01:00.3602 Trace ParseRulesElement
+2024-12-02 16:01:00.3771 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 16:01:00.3771 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 16:01:00.3771 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 16:01:00.3771 Debug --- NLog configuration dump ---
+2024-12-02 16:01:00.3910 Debug Targets:
+2024-12-02 16:01:00.3910 Debug Rules:
+2024-12-02 16:01:00.3910 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 16:01:00.3910 Debug --- End of NLog configuration dump ---
+2024-12-02 16:01:00.4059 Trace FindReachableObject<System.Object>:
+2024-12-02 16:01:00.4059 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 16:01:00.4059 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 16:01:00.4059 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 16:01:00.4059 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 16:01:00.4239 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 16:01:00.4239 Info Configuration initialized.
+2024-12-02 16:01:01.0103 Info AppDomain Shutting down. LogFactory closing...
+2024-12-02 16:01:01.0105 Debug Stop watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 16:01:01.0155 Trace Flushing all 0 targets...
+2024-12-02 16:01:01.0163 Trace ForEachItemInParallel() 0 items
+2024-12-02 16:01:01.0155 Debug Flush completed
+2024-12-02 16:01:01.0163 Debug Closing logging configuration...
+2024-12-02 16:01:01.0155 Info LogFactory has been closed.
+2024-12-02 16:02:13.4871 Debug Message Template Auto Format enabled
+2024-12-02 16:02:13.5315 Debug Object reflection needed to resolve type: NLog.Targets.DatabaseTarget, NLog.Database
+2024-12-02 16:02:13.5336 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-02 16:02:13.5620 Trace ParseRulesElement
+2024-12-02 16:02:13.5652 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'dbTarget' not found for logging rule: *.
+2024-12-02 16:02:13.5652 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-02 16:02:13.5652 Debug Start watching file-filter 'nlog.config' in directory: C:\Workspace\CustomerRegisterationFlow\API
+2024-12-02 16:02:13.5652 Debug --- NLog configuration dump ---
+2024-12-02 16:02:13.5652 Debug Targets:
+2024-12-02 16:02:13.5652 Debug Rules:
+2024-12-02 16:02:13.5652 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]
+2024-12-02 16:02:13.5652 Debug --- End of NLog configuration dump ---
+2024-12-02 16:02:13.5797 Trace FindReachableObject<System.Object>:
+2024-12-02 16:02:13.5797 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ ]'
+2024-12-02 16:02:13.5797 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-12-02 16:02:13.5797 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-12-02 16:02:13.5797 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-12-02 16:02:13.5797 Info Validating config: Targets=0, ConfigItems=1, FilePath=C:\Workspace\CustomerRegisterationFlow\API\nlog.config
+2024-12-02 16:02:13.5797 Info Configuration initialized.
+2024-12-02 16:03:47.1440 Debug Targets not configured for Logger: CustomerRegisterationFlow.LoggerService.LoggerManager

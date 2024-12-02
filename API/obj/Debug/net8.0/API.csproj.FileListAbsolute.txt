@@ -203,3 +203,8 @@ C:\Workspace\CustomerRegisterationFlow\API\bin\Debug\net8.0\AutoWrapper.dll
 C:\Workspace\CustomerRegisterationFlow\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\Workspace\CustomerRegisterationFlow\API\bin\Debug\net8.0\CustomerRegisterationFlow.LoggerService.dll
 C:\Workspace\CustomerRegisterationFlow\API\bin\Debug\net8.0\CustomerRegisterationFlow.LoggerService.pdb
+C:\Workspace\CustomerRegisterationFlow\API\bin\Debug\net8.0\CustomerRegisterationFlow.Resources.dll
+C:\Workspace\CustomerRegisterationFlow\API\bin\Debug\net8.0\CustomerRegisterationFlow.Resources.pdb
+C:\Workspace\CustomerRegisterationFlow\API\bin\Debug\net8.0\ar-EG\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\API\bin\Debug\net8.0\en-US\CustomerRegisterationFlow.Resources.resources.dll
+C:\Workspace\CustomerRegisterationFlow\API\obj\Debug\net8.0\API.sourcelink.json

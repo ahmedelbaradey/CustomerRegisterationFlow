@@ -222,6 +222,7 @@
           "AutoMapper": "13.0.1",
           "AutoWrapper.Core": "4.5.1",
           "CustomerRegisterationFlow.Domain": "1.0.0",
+          "CustomerRegisterationFlow.Resources": "1.0.0",
           "FluentValidation": "11.11.0",
           "MediatR": "12.4.1"
         },
@@ -240,6 +241,16 @@
         },
         "runtime": {
           "bin/placeholder/CustomerRegisterationFlow.Domain.dll": {}
+        }
+      },
+      "CustomerRegisterationFlow.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CustomerRegisterationFlow.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomerRegisterationFlow.Resources.dll": {}
         }
       }
     }
@@ -593,6 +604,11 @@
       "type": "project",
       "path": "../CustomerRegisterationFlow.Domain/CustomerRegisterationFlow.Domain.csproj",
       "msbuildProject": "../CustomerRegisterationFlow.Domain/CustomerRegisterationFlow.Domain.csproj"
+    },
+    "CustomerRegisterationFlow.Resources/1.0.0": {
+      "type": "project",
+      "path": "../CustomerRegisterationFlow.Resources/CustomerRegisterationFlow.Resources.csproj",
+      "msbuildProject": "../CustomerRegisterationFlow.Resources/CustomerRegisterationFlow.Resources.csproj"
     }
   },
   "projectFileDependencyGroups": {
