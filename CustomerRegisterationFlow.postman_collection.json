@@ -1,0 +1,1414 @@
+{
+	"info": {
+		"_postman_id": "612b2ec4-0702-45fb-8041-cab469cb2bf6",
+		"name": "CustomerRegisterationFlow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "5429344",
+		"_collection_link": "https://www.postman.com/ahmedelbaradey/workspace/task-net/collection/5429344-612b2ec4-0702-45fb-8041-cab469cb2bf6?action=share&source=collection_link&creator=5429344"
+	},
+	"item": [
+		{
+			"name": "1- Add_Customer_Basic_Info",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-version",
+						"value": "2.0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ICNumber\":12222,\r\n    \"Name\":\"Customer 4\",\r\n    \"Phone\":\"0100004401\",\r\n    \"Email\":\"Customer3@email.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/api/Customer/Register"
+			},
+			"response": [
+				{
+					"name": "1- Add_Customer_Basic_Info_Sucess",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ICNumber\":12222,\r\n    \"Name\":\"Customer 4\",\r\n    \"Phone\":\"0100004401\",\r\n    \"Email\":\"Customer3@email.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://localhost:5001/api/Customer/Register"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "229"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:00:05 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "198"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:00:12.8055258Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 201,\n    \"message\": \"Phone TOTP is : 3963 and will expire after 2 minutes\",\n    \"status\": true,\n    \"sentDate\": \"2024-12-02\",\n    \"payload\": {\n        \"name\": \"Customer 4\",\n        \"phone\": \"0100004401\",\n        \"email\": \"Customer3@email.com\",\n        \"icNumber\": 12222,\n        \"id\": 7\n    },\n    \"id\": 7\n}"
+				},
+				{
+					"name": "1- Add_Customer_Basic_Info_WithValidationErrors",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ICNumber\":12222,\r\n    \"Name\":\"Customer 4\",\r\n    \"Phone\":\"0100004401\",\r\n    \"Email\":\"Customer3@email.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/Customer/Register"
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "403"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:00:56 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "199"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:01:57.3462571Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 400,\n    \"status\": true,\n    \"error\": {\n        \"exceptionMessage\": {\n            \"requestId\": \"014650fb-ad76-4fbf-ae76-e7c46f5b350c\",\n            \"code\": 400,\n            \"message\": \"Customer Creation Failed\",\n            \"status\": false,\n            \"sentDate\": \"2024-12-02\",\n            \"errors\": [\n                \"IC Number is exist\",\n                \"Phone is exist\",\n                \"Email is exist\"\n            ],\n            \"id\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "1- Add_Customer_Basic_Info_With_Missing_Property_From_Body",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ICNumber\":1111,\r\n    \"Name\":\"Customer 5\",\r\n    \"Phone\":\"01000044014\"\r\n \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/Customer/Register"
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "378"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:02:31 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "199"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:03:32.1971954Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 400,\n    \"status\": true,\n    \"error\": {\n        \"exceptionMessage\": {\n            \"requestId\": \"0d96ec1e-3265-4495-a598-9b4dc395c894\",\n            \"code\": 400,\n            \"message\": \"Customer Creation Failed\",\n            \"status\": false,\n            \"sentDate\": \"2024-12-02\",\n            \"errors\": [\n                \"Email is Required\",\n                \"Email is Required\"\n            ],\n            \"id\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "1- Add_Customer_Basic_Info_With_MIssing_Body",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/Customer/Register"
+					},
+					"status": "Unprocessable Entity",
+					"code": 422,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "237"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:03:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "198"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:03:32.1971954Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 422,\n    \"status\": true,\n    \"error\": {\n        \"requestId\": \"ba02f4cd-517b-4580-94a1-91ba71357fba\",\n        \"code\": 422,\n        \"message\": \"Empty Parsed Data\",\n        \"status\": false,\n        \"sentDate\": \"2024-12-02\",\n        \"id\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "2- Verify_Phone",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-version",
+						"value": "2.0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/api/Customer/VerifyPhone"
+			},
+			"response": [
+				{
+					"name": "2- Verify_Phone_Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"8645\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://localhost:5001/api/Customer/VerifyPhone"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "109"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:04:33 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "197"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:05:09.4233298Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 204,\n    \"message\": \"Phone Verified and Email TOTP is : 8481\",\n    \"status\": true,\n    \"sentDate\": \"2024-12-02\",\n    \"id\": 5\n}"
+				},
+				{
+					"name": "2- Verify_Phone_NotValid_Or_Expired_TOTP",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"8845\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/Customer/VerifyPhone"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "186"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:04:56 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "196"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:05:09.4233298Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"requestId\": \"4287e07e-afea-487d-a264-6070deed5258\",\n    \"code\": 304,\n    \"message\": \"Phone Verification Failed\",\n    \"status\": false,\n    \"sentDate\": \"2024-12-02\",\n    \"errors\": [\n        \"TOTP not valid or expired\"\n    ],\n    \"id\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "3- Verify_Email",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-version",
+						"value": "2.0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"1352\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/api/Customer/VerifyEmail"
+			},
+			"response": [
+				{
+					"name": "3- Verify_Email_NotValid_Or_Expired_TOTP",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"6168\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://localhost:5001/api/Customer/VerifyEmail"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "186"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:06:24 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "199"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:07:24.6091581Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"requestId\": \"04294b02-e090-4594-8102-b51260b72c37\",\n    \"code\": 304,\n    \"message\": \"Email Verification Failed\",\n    \"status\": false,\n    \"sentDate\": \"2024-12-02\",\n    \"errors\": [\n        \"TOTP not valid or expired\"\n    ],\n    \"id\": 0\n}"
+				},
+				{
+					"name": "3- Verify_Email_Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"1352\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/Customer/VerifyEmail"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "97"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:07:11 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "195"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:07:24.6091581Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 204,\n    \"message\": \"Email Verirfied Sucessfully\",\n    \"status\": true,\n    \"sentDate\": \"2024-12-02\",\n    \"id\": 5\n}"
+				}
+			]
+		},
+		{
+			"name": "4- Accept_Terms",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-version",
+						"value": "2.0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":2,\r\n    \"HasAcceptedTerms\":false\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/api/Customer/AcceptTerms"
+			},
+			"response": []
+		},
+		{
+			"name": "5- Create_PIN",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-version",
+						"value": "2.0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":5,\r\n    \"PINCode\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/api/Customer/CreatePIN"
+			},
+			"response": [
+				{
+					"name": "5- Create_PIN_Sucess",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"PINCode\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://localhost:5001/api/Customer/CreatePIN"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "179"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:08:49 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "198"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:09:25.5258587Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 204,\n    \"message\": \"PIN Code Updated\",\n    \"status\": true,\n    \"sentDate\": \"2024-12-02\",\n    \"payload\": {\n        \"name\": \"Ahmed\",\n        \"phone\": \"01011\",\n        \"email\": \"Ahmed@emial.com\",\n        \"icNumber\": 44444,\n        \"id\": 5\n    },\n    \"id\": 5\n}"
+				},
+				{
+					"name": "5- Create_PIN_With_Validation_Error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"PINCode\":\"1234567\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/Customer/CreatePIN"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "185"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:09:24 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "196"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:09:25.5258587Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"requestId\": \"aafb6397-7ee8-43f0-936f-5cc333ee3020\",\n    \"code\": 304,\n    \"message\": \"PIN Code Creation Failed\",\n    \"status\": false,\n    \"sentDate\": \"2024-12-02\",\n    \"errors\": [\n        \"PIN Code must be 6 digits\"\n    ],\n    \"id\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "6- Verify_PIN",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-version",
+						"value": "2.0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":2,\r\n    \"PINCode\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/api/Customer/VerifyPIN"
+			},
+			"response": [
+				{
+					"name": "6- Verify_PIN_Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"PINCode\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://localhost:5001/api/Customer/VerifyPIN"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "100"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:10:33 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "198"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:10:51.2143667Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 204,\n    \"message\": \"PIN Code Verirfied Sucessfully\",\n    \"status\": true,\n    \"sentDate\": \"2024-12-02\",\n    \"id\": 5\n}"
+				},
+				{
+					"name": "6- Verify_PIN_NotValid",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"PINCode\":\"123433\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/Customer/VerifyPIN"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "183"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:11:01 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "199"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:12:00.7148329Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"requestId\": \"abeebe38-8d41-438e-b351-0cae53c75f9e\",\n    \"code\": 304,\n    \"message\": \"PIN Code Verification Failed\",\n    \"status\": false,\n    \"sentDate\": \"2024-12-02\",\n    \"errors\": [\n        \"PIN Code  not valid\"\n    ],\n    \"id\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "7- Enable_BiometricLogin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-version",
+						"value": "2.0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":5,\r\n    \"IsBiometricLoginEnabled\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/api/Customer/EnableBiometricLogin"
+			},
+			"response": []
+		},
+		{
+			"name": "8- Customer_Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {\r",
+							"    pm.expect(pm.response.code).to.equal(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"  pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							" \r",
+							"pm.test(\"Response has the required fields\", function () {\r",
+							"    const responseData = pm.response.json();\r",
+							"    \r",
+							"    pm.expect(responseData).to.be.an('object');\r",
+							"    pm.expect(responseData).to.include.all.keys('code', 'message', 'status', 'sentDate', 'payload', 'id');\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Name, phone, and email are non-empty strings\", function () {\r",
+							"    const responseData = pm.response.json();\r",
+							"\r",
+							"    pm.expect(responseData).to.be.an('object');\r",
+							"    pm.expect(responseData.payload.name).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Name should not be empty\");\r",
+							"    pm.expect(responseData.payload.phone).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Phone should not be empty\");\r",
+							"    pm.expect(responseData.payload.email).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Email should not be empty\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"IcNumber and id are non-negative integers\", function () {\r",
+							"    const responseData = pm.response.json();\r",
+							"    \r",
+							"    pm.expect(responseData.payload.icNumber).to.be.a('number').and.to.be.at.least(0);\r",
+							"    pm.expect(responseData.payload.id).to.be.a('number').and.to.be.at.least(0);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "api-version",
+						"value": "2.0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ICNumber\":44444\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/api/Customer/Login"
+			},
+			"response": [
+				{
+					"name": "8- Customer_Login_Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ICNumber\":44444\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://localhost:5001/api/Customer/Login"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "215"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 09:55:24 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "198"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T09:55:42.1929743Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 200,\n    \"message\": \"Phone TOTP is : 4597 and will expire after 2 minutes\",\n    \"status\": true,\n    \"sentDate\": \"2024-12-02\",\n    \"payload\": {\n        \"name\": \"Ahmed\",\n        \"phone\": \"01011\",\n        \"email\": \"Ahmed@emial.com\",\n        \"icNumber\": 44444,\n        \"id\": 5\n    },\n    \"id\": 0\n}"
+				},
+				{
+					"name": "8- Customer_Login_NotExist",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ICNumber\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/Customer/Login"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "182"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 09:55:57 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "199"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T09:56:58.1845843Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"requestId\": \"ce4c5433-dfda-40d9-84d9-4254805f0ab0\",\n    \"code\": 404,\n    \"message\": \"The customer with ICNumber: 1 doesn't exist in the database.\",\n    \"status\": false,\n    \"sentDate\": \"2024-12-02\",\n    \"id\": 0\n}"
+				},
+				{
+					"name": "8- Customer_Login_MIssing_Sent",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": " ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/Customer/Login"
+					},
+					"status": "Unprocessable Entity",
+					"code": 422,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "237"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 09:59:14 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "199"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:00:12.8055258Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 422,\n    \"status\": true,\n    \"error\": {\n        \"requestId\": \"5ec7e034-1f3e-4011-b03e-d92374738fc8\",\n        \"code\": 422,\n        \"message\": \"Empty Parsed Data\",\n        \"status\": false,\n        \"sentDate\": \"2024-12-02\",\n        \"id\": 0\n    }\n}"
+				}
+			]
+		}
+	]
+}
