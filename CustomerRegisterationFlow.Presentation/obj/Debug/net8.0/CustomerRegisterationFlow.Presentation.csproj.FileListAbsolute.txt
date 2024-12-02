@@ -1,0 +1,17 @@
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\bin\Debug\net8.0\CustomerRegisterationFlow.Presentation.deps.json
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\bin\Debug\net8.0\CustomerRegisterationFlow.Presentation.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\bin\Debug\net8.0\CustomerRegisterationFlow.Presentation.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\bin\Debug\net8.0\CustomerRegisterationFlow.Application.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\bin\Debug\net8.0\CustomerRegisterationFlow.Domain.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\bin\Debug\net8.0\CustomerRegisterationFlow.Application.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\bin\Debug\net8.0\CustomerRegisterationFlow.Domain.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\CustomerRegisterationFlow.Presentation.csproj.AssemblyReference.cache
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\CustomerRegisterationFlow.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\CustomerRegisterationFlow.Presentation.AssemblyInfoInputs.cache
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\CustomerRegisterationFlow.Presentation.AssemblyInfo.cs
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\CustomerRegisterationFlow.Presentation.csproj.CoreCompileInputs.cache
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\Customer.C94F88D2.Up2Date
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\CustomerRegisterationFlow.Presentation.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\refint\CustomerRegisterationFlow.Presentation.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\CustomerRegisterationFlow.Presentation.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Presentation\obj\Debug\net8.0\ref\CustomerRegisterationFlow.Presentation.dll

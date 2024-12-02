@@ -1,0 +1,17 @@
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\bin\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.deps.json
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\bin\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\bin\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\bin\Debug\net8.0\CustomerRegisterationFlow.Application.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\bin\Debug\net8.0\CustomerRegisterationFlow.Domain.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\bin\Debug\net8.0\CustomerRegisterationFlow.Application.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\bin\Debug\net8.0\CustomerRegisterationFlow.Domain.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.csproj.AssemblyReference.cache
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.AssemblyInfoInputs.cache
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.AssemblyInfo.cs
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\Customer.C72C2196.Up2Date
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\refint\CustomerRegisterationFlow.Infrastructure.dll
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\CustomerRegisterationFlow.Infrastructure.pdb
+C:\Workspace\CustomerRegisterationFlow\CustomerRegisterationFlow.Infrastructure\obj\Debug\net8.0\ref\CustomerRegisterationFlow.Infrastructure.dll

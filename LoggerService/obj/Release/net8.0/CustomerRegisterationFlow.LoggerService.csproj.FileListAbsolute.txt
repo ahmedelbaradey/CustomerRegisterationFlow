@@ -1,0 +1,17 @@
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Release\net8.0\CustomerRegisterationFlow.LoggerService.deps.json
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Release\net8.0\CustomerRegisterationFlow.LoggerService.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Release\net8.0\CustomerRegisterationFlow.LoggerService.pdb
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Release\net8.0\CustomerRegisterationFlow.Application.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Release\net8.0\CustomerRegisterationFlow.Domain.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Release\net8.0\CustomerRegisterationFlow.Application.pdb
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Release\net8.0\CustomerRegisterationFlow.Domain.pdb
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\CustomerRegisterationFlow.LoggerService.csproj.AssemblyReference.cache
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\CustomerRegisterationFlow.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\CustomerRegisterationFlow.LoggerService.AssemblyInfoInputs.cache
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\CustomerRegisterationFlow.LoggerService.AssemblyInfo.cs
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\CustomerRegisterationFlow.LoggerService.csproj.CoreCompileInputs.cache
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\Customer.652C62B9.Up2Date
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\CustomerRegisterationFlow.LoggerService.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\refint\CustomerRegisterationFlow.LoggerService.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\CustomerRegisterationFlow.LoggerService.pdb
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Release\net8.0\ref\CustomerRegisterationFlow.LoggerService.dll

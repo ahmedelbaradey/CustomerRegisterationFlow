@@ -1,0 +1,17 @@
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\LoggerService.csproj.AssemblyReference.cache
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfoInputs.cache
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfo.cs
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Debug\net8.0\LoggerService.deps.json
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Debug\net8.0\LoggerService.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Debug\net8.0\LoggerService.pdb
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Debug\net8.0\CustomerRegisterationFlow.Application.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Debug\net8.0\CustomerRegisterationFlow.Domain.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Debug\net8.0\CustomerRegisterationFlow.Application.pdb
+C:\Workspace\CustomerRegisterationFlow\LoggerService\bin\Debug\net8.0\CustomerRegisterationFlow.Domain.pdb
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\LoggerSe.E7AEA5A8.Up2Date
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\LoggerService.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\refint\LoggerService.dll
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\LoggerService.pdb
+C:\Workspace\CustomerRegisterationFlow\LoggerService\obj\Debug\net8.0\ref\LoggerService.dll
