@@ -2,7 +2,7 @@
  Link: https://github.com/ahmedelbaradey/CustomerRegisterationFlow
 Production Api: https://apinet8.azurewebsites.net
 
-Pre-requisites :Visual Studio 2022 & .Net 8.0
+Pre-requisites: Visual Studio 2022 & .Net 8.0
 
 𝐖𝐡𝐚𝐭’𝐬 𝐈𝐧𝐬𝐢𝐝𝐞 Customer Registration Flow?
  This repository is packed with:
