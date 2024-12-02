@@ -1,5 +1,0 @@
-C:\Workspace\HRSystemCleanArch\HRSystem.Presentation\obj\Debug\net8.0\HRSystem.Presentation.csproj.AssemblyReference.cache
-C:\Workspace\HRSystemCleanArch\HRSystem.Presentation\obj\Debug\net8.0\HRSystem.Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Workspace\HRSystemCleanArch\HRSystem.Presentation\obj\Debug\net8.0\HRSystem.Presentation.AssemblyInfoInputs.cache
-C:\Workspace\HRSystemCleanArch\HRSystem.Presentation\obj\Debug\net8.0\HRSystem.Presentation.AssemblyInfo.cs
-C:\Workspace\HRSystemCleanArch\HRSystem.Presentation\obj\Debug\net8.0\HRSystem.Presentation.csproj.CoreCompileInputs.cache
