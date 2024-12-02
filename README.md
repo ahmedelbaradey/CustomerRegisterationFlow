@@ -1,8 +1,12 @@
  I'm excited to share my task of Customer Registration Flow 
 
- Link: https://github.com/ahmedelbaradey/CustomerRegisterationFlow
+ githup Link: https://github.com/ahmedelbaradey/CustomerRegisterationFlow
 
 Production Api: https://apinet8.azurewebsites.net
+
+Postman collection : https://www.postman.com/ahmedelbaradey/task-net/
+
+Swagger : https://apinet8.azurewebsites.net/swagger/index.html
 
 Pre-requisites: Visual Studio 2022 & .Net 8.0
 
