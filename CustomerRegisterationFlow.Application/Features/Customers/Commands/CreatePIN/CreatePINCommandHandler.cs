@@ -9,9 +9,11 @@ using CustomerRegisterationFlow.Application.DTOs.Customers.Validators;
 using CustomerRegisterationFlow.Application.Features.Customers.Commands.CreatePIN;
 using CustomerRegisterationFlow.Application.Responses;
 using CustomerRegisterationFlow.Domain.Entities;
+using CustomerRegisterationFlow.Resources;
 using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Localization;
 using System.Security.Cryptography;
 
 namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.CreatePin
@@ -23,17 +25,19 @@ namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.Crea
         private readonly IMapper _mapper;
         private readonly IPasswordHasher _ipasswordHasher;
         private readonly ILoggerManager _loggerManager;
-        public CreatePinCommandHandler(IUnitOfWork unitOfWork, IMapper mapper, IPasswordHasher ipasswordHasher,ILoggerManager loggerManager)
+        private readonly IStringLocalizer<SharedResources> _localizer;
+        public CreatePinCommandHandler(IUnitOfWork unitOfWork, IMapper mapper, IPasswordHasher ipasswordHasher,ILoggerManager loggerManager , IStringLocalizer<SharedResources> localizer)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             _ipasswordHasher = ipasswordHasher;
             _loggerManager = loggerManager;
+            _localizer = localizer;
         }
 
         public async Task<IBaseResponse> Handle(CreatePINCommand request, CancellationToken cancellationToken)
         {
-            var validator = new CreatePinDtoValidator();
+            var validator = new CreatePinDtoValidator(_localizer);
             var validationResult = validator.Validate(request.CreatePINDto);
             if (request.CreatePINDto != null && validationResult.IsValid)
             {
@@ -47,7 +51,7 @@ namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.Crea
                 await _unitOfWork.SaveAsync();
                 return new BaseCommandResponse()
                 {
-                    Message = $"PIN Code Updated",
+                    Message = $"{_localizer[SharedResourcesKey.PINCodeUpdated]}",
                     Payload = _mapper.Map<CustomerBasicInfoDto>(customer),
                     Code = StatusCodes.Status204NoContent,
                     Id = customer.Id
@@ -56,12 +60,12 @@ namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.Crea
             }
             else
             {
-                _loggerManager.LogError($"PIN Code Creation Failed");
+                _loggerManager.LogError($"{_localizer[SharedResourcesKey.PINCodeCreationFailed]}");
                 return new ErrorDetails
                 {
                     Code = StatusCodes.Status304NotModified,
                     Errors = validationResult.Errors.Select(e => e.ErrorMessage).ToList(),
-                    Message = $"PIN Code Creation Failed",
+                    Message = $"{_localizer[SharedResourcesKey.PINCodeCreationFailed]}",
                     RequestId = Guid.NewGuid(),
                 };
             }

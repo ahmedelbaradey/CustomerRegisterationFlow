@@ -2,6 +2,8 @@
 using CustomerRegisterationFlow.Application.Contracts.Presistence;
 using CustomerRegisterationFlow.Application.Contracts.Infrastructure;
 using System.Text;
+using CustomerRegisterationFlow.Resources;
+using Microsoft.Extensions.Localization;
 
 
 namespace CustomerRegisterationFlow.Application.DTOs.Customers.Validators
@@ -11,19 +13,20 @@ namespace CustomerRegisterationFlow.Application.DTOs.Customers.Validators
 
         private readonly ICustomerRepository _customerRepository;
         private readonly IPasswordHasher _ipasswordHasher;
-        public VerifyPINDtoValidator(ICustomerRepository customerRepository, IPasswordHasher ipasswordHasher)
+        private readonly IStringLocalizer<SharedResources> _localizer;
+        public VerifyPINDtoValidator(ICustomerRepository customerRepository, IPasswordHasher ipasswordHasher, IStringLocalizer<SharedResources> localizer)
         {
             _customerRepository = customerRepository;
             _ipasswordHasher = ipasswordHasher;
-
-            Include(new BaseDtoValidator());
+            _localizer = localizer; 
+            Include(new BaseDtoValidator(_localizer));
 
             RuleFor(c => c.PINCode)
-              .NotEmpty().WithMessage("{PropertyName} is Required")
-              .NotNull().WithMessage("{PropertyName} is Required")
-              .MaximumLength(6).WithMessage("{PropertyName} must be 6 digits")
-              .MinimumLength(6).WithMessage("{PropertyName}  must be 6 digits")
-              .Must(VerifyPINCode).WithMessage("{PropertyName}  not valid");
+              .NotEmpty().WithMessage(_localizer[SharedResourcesKey.EmptyPINCodeValidation])
+              .NotNull().WithMessage(_localizer[SharedResourcesKey.EmptyPINCodeValidation])
+              .MaximumLength(6).WithMessage(_localizer[SharedResourcesKey.MaximumDigitsPINCodeValidation])
+              .MinimumLength(6).WithMessage(_localizer[SharedResourcesKey.MinimumDigitsPINCodeValidation])
+              .Must(VerifyPINCode).WithMessage(_localizer[SharedResourcesKey.NotValidPINCodeValidation]);
 
         }
         private bool VerifyPINCode(VerifyPINDto verifyPINDto,string _PINCode)

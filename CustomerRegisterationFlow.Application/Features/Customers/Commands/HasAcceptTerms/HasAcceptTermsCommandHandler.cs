@@ -10,6 +10,8 @@ using CustomerRegisterationFlow.Application.Contracts.Infrastructure;
 using Microsoft.AspNetCore.Http;
 using CustomerRegisterationFlow.Domain.Entities;
 using CustomerRegisterationFlow.Application.DTOs.Customers;
+using Microsoft.Extensions.Localization;
+using CustomerRegisterationFlow.Resources;
 
 namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.VerifyCustomerEmail
 {
@@ -17,20 +19,22 @@ namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.Veri
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        public HasAcceptTermsCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
+        private readonly IStringLocalizer<SharedResources> _localizer;
+        public HasAcceptTermsCommandHandler(IUnitOfWork unitOfWork, IMapper mapper , IStringLocalizer<SharedResources> localizer ) 
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _localizer = localizer;
         }
         public async Task<IBaseResponse> Handle(HasAcceptTermsCommand request, CancellationToken cancellationToken)
         {
-            var validator = new HasAcceptedTermsDtoValidator();
+            var validator = new HasAcceptedTermsDtoValidator(_localizer);
             var validationResult = validator.Validate(request.HasAcceptedTermsDto);
             if (request.HasAcceptedTermsDto != null && validationResult.IsValid)
             {
                 return new BaseCommandResponse()
                 {
-                    Message = $"Terms Accepted Sucessfully",
+                    Message = $"{_localizer[SharedResourcesKey.TermsAcceptedSucessfully]}",
                     Code = StatusCodes.Status204NoContent,
                     Id = request.HasAcceptedTermsDto.Id
                 };
@@ -41,7 +45,7 @@ namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.Veri
                 {
                     Code = StatusCodes.Status304NotModified,
                     Errors = validationResult.Errors.Select(e => e.ErrorMessage).ToList(),
-                    Message = $"Terms Verification Failed",
+                    Message = $"{_localizer[SharedResourcesKey.TermsAcceptedFailed]}",
                     RequestId = Guid.NewGuid(),
                 };
             }

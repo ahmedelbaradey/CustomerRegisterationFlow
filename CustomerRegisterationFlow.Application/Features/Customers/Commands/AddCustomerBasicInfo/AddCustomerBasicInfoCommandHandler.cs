@@ -43,7 +43,7 @@ namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.AddC
                 await _unitOfWork.SaveAsync();
                 return new BaseCommandResponse()
                 {
-                    Message = $"Phone TOTP is : {_iTOTP.SendTOTP(_otpForPhone: true)} and will expire after 2 minutes",
+                    Message = $"{_localizer[SharedResourcesKey.PhoneTOTPIs]} {_iTOTP.SendTOTP(_otpForPhone: true)} {_localizer[SharedResourcesKey.TOTPExpireAfter]}",
                     Payload = _mapper.Map<CustomerBasicInfoDto>(customer),
                     Code = StatusCodes.Status201Created,
                     Id = customer.Id
@@ -51,12 +51,12 @@ namespace CustomerRegisterationFlow.Application.Features.Customers.Commands.AddC
             }
             else
             {
-                _loggerManager.LogError($"Customer Creation Failed");
+                _loggerManager.LogError($"{_localizer[SharedResourcesKey.CustomerCreationFailed]}");
                 return new ErrorDetails
                 {
                     Code = StatusCodes.Status400BadRequest,
                     Errors = validationResult.Errors.Select(e => e.ErrorMessage).ToList(),
-                    Message = $"Customer Creation Failed",
+                    Message = $"{_localizer[SharedResourcesKey.CustomerCreationFailed]}",
                     RequestId = Guid.NewGuid(),
                 };
             }

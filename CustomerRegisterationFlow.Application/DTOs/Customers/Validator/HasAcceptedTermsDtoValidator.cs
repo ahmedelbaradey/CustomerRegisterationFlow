@@ -1,4 +1,6 @@
-﻿using FluentValidation;
+﻿using CustomerRegisterationFlow.Resources;
+using FluentValidation;
+using Microsoft.Extensions.Localization;
 
 
 namespace CustomerRegisterationFlow.Application.DTOs.Customers.Validators
@@ -6,11 +8,13 @@ namespace CustomerRegisterationFlow.Application.DTOs.Customers.Validators
 
     public class HasAcceptedTermsDtoValidator : AbstractValidator<HasAcceptedTermsDto>
     {
-        public HasAcceptedTermsDtoValidator()
+        private readonly IStringLocalizer<SharedResources> _localizer;
+        public HasAcceptedTermsDtoValidator(IStringLocalizer<SharedResources> localizer)
         {
-            Include(new BaseDtoValidator());
+            _localizer = localizer;
+            Include(new BaseDtoValidator(_localizer));
             RuleFor(c => c.HasAcceptedTerms)
-                .Must(c => c).WithMessage("Must Accept Terms");
+              .Must(c => c).WithMessage(_localizer[SharedResourcesKey.HasAcceptedTerms]);
         }
     }
 }

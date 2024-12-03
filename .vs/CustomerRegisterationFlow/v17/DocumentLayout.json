@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Workspace\\CustomerRegisterationFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.application\\dtos\\customers\\validator\\customerbasicinfodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|solutionrelative:customerregisterationflow.application\\dtos\\customers\\validator\\customerbasicinfodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.application\\dtos\\common\\validators\\basedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|solutionrelative:customerregisterationflow.application\\dtos\\common\\validators\\basedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.application\\features\\customers\\queries\\getbyicnumber\\getcustomerdetailrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|solutionrelative:customerregisterationflow.application\\features\\customers\\queries\\getbyicnumber\\getcustomerdetailrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}|CustomerRegisterationFlow.Resources\\CustomerRegisterationFlow.Resources.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.resources\\sharedresourceskey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}|CustomerRegisterationFlow.Resources\\CustomerRegisterationFlow.Resources.csproj|solutionrelative:customerregisterationflow.resources\\sharedresourceskey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}|CustomerRegisterationFlow.Resources\\CustomerRegisterationFlow.Resources.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.resources\\sharedresources.en-us.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}|CustomerRegisterationFlow.Resources\\CustomerRegisterationFlow.Resources.csproj|solutionrelative:customerregisterationflow.resources\\sharedresources.en-us.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.application\\dtos\\customers\\validator\\verifyphonedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|solutionrelative:customerregisterationflow.application\\dtos\\customers\\validator\\verifyphonedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.application\\dtos\\customers\\validator\\verifyemaildtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|solutionrelative:customerregisterationflow.application\\dtos\\customers\\validator\\verifyemaildtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}|CustomerRegisterationFlow.Resources\\CustomerRegisterationFlow.Resources.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.resources\\sharedresources.ar-eg.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{B9AE1826-DEEF-4FF2-9B3C-E91DAA093331}|CustomerRegisterationFlow.Resources\\CustomerRegisterationFlow.Resources.csproj|solutionrelative:customerregisterationflow.resources\\sharedresources.ar-eg.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.application\\dtos\\customers\\validator\\hasacceptedtermsdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|solutionrelative:customerregisterationflow.application\\dtos\\customers\\validator\\hasacceptedtermsdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.application\\dtos\\customers\\validator\\enablebiometriclogindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|solutionrelative:customerregisterationflow.application\\dtos\\customers\\validator\\enablebiometriclogindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.application\\dtos\\customers\\validator\\createpindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|solutionrelative:customerregisterationflow.application\\dtos\\customers\\validator\\createpindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|c:\\workspace\\customerregisterationflow\\customerregisterationflow.application\\dtos\\customers\\validator\\basecustomerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2BEE6D8-75DD-4E21-9688-A46B281C555F}|CustomerRegisterationFlow.Application\\CustomerRegisterationFlow.Application.csproj|solutionrelative:customerregisterationflow.application\\dtos\\customers\\validator\\basecustomerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SharedResourcesKey.cs",
+              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Resources\\SharedResourcesKey.cs",
+              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Resources\\SharedResourcesKey.cs",
+              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Resources\\SharedResourcesKey.cs",
+              "RelativeToolTip": "CustomerRegisterationFlow.Resources\\SharedResourcesKey.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvzEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:26:05.947Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -75,143 +52,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerBasicInfoDtoValidator.cs",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\CustomerBasicInfoDtoValidator.cs",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\CustomerBasicInfoDtoValidator.cs",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\CustomerBasicInfoDtoValidator.cs",
-              "RelativeToolTip": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\CustomerBasicInfoDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvyIAAABRAAAA",
+              "Title": "GetCustomerDetailRequestHandler.cs",
+              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\Features\\Customers\\Queries\\GetByICNumber\\GetCustomerDetailRequestHandler.cs",
+              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Application\\Features\\Customers\\Queries\\GetByICNumber\\GetCustomerDetailRequestHandler.cs",
+              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\Features\\Customers\\Queries\\GetByICNumber\\GetCustomerDetailRequestHandler.cs",
+              "RelativeToolTip": "CustomerRegisterationFlow.Application\\Features\\Customers\\Queries\\GetByICNumber\\GetCustomerDetailRequestHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvyIAAACwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T14:00:04.749Z",
+              "WhenOpened": "2024-12-03T07:24:47.255Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VerifyPhoneDtoValidator.cs",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\VerifyPhoneDtoValidator.cs",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\VerifyPhoneDtoValidator.cs",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\VerifyPhoneDtoValidator.cs",
-              "RelativeToolTip": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\VerifyPhoneDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:59:28.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VerifyEmailDtoValidator.cs",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\VerifyEmailDtoValidator.cs",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\VerifyEmailDtoValidator.cs",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\VerifyEmailDtoValidator.cs",
-              "RelativeToolTip": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\VerifyEmailDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:58:48.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HasAcceptedTermsDtoValidator.cs",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\HasAcceptedTermsDtoValidator.cs",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\HasAcceptedTermsDtoValidator.cs",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\HasAcceptedTermsDtoValidator.cs",
-              "RelativeToolTip": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\HasAcceptedTermsDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:58:29.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EnableBiometricLoginDtoValidator.cs",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\EnableBiometricLoginDtoValidator.cs",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\EnableBiometricLoginDtoValidator.cs",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\EnableBiometricLoginDtoValidator.cs",
-              "RelativeToolTip": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\EnableBiometricLoginDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:58:26.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreatePINDtoValidator.cs",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\CreatePINDtoValidator.cs",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\CreatePINDtoValidator.cs",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\CreatePINDtoValidator.cs",
-              "RelativeToolTip": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\CreatePINDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:56:36.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseDtoValidator.cs",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Common\\Validators\\BaseDtoValidator.cs",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Application\\DTOs\\Common\\Validators\\BaseDtoValidator.cs",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Common\\Validators\\BaseDtoValidator.cs",
-              "RelativeToolTip": "CustomerRegisterationFlow.Application\\DTOs\\Common\\Validators\\BaseDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:55:52.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SharedResourcesKey.cs",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Resources\\SharedResourcesKey.cs",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Resources\\SharedResourcesKey.cs",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Resources\\SharedResourcesKey.cs",
-              "RelativeToolTip": "CustomerRegisterationFlow.Resources\\SharedResourcesKey.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:26:06.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SharedResources.en-US.resx",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Resources\\SharedResources.en-US.resx",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Resources\\SharedResources.en-US.resx",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Resources\\SharedResources.en-US.resx",
-              "RelativeToolTip": "CustomerRegisterationFlow.Resources\\SharedResources.en-US.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-12-02T13:26:04.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SharedResources.ar-EG.resx",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Resources\\SharedResources.ar-EG.resx",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Resources\\SharedResources.ar-EG.resx",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Resources\\SharedResources.ar-EG.resx",
-              "RelativeToolTip": "CustomerRegisterationFlow.Resources\\SharedResources.ar-EG.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-12-02T13:25:46.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BaseCustomerDtoValidator.cs",
-              "DocumentMoniker": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\BaseCustomerDtoValidator.cs",
-              "RelativeDocumentMoniker": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\BaseCustomerDtoValidator.cs",
-              "ToolTip": "C:\\Workspace\\CustomerRegisterationFlow\\CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\BaseCustomerDtoValidator.cs",
-              "RelativeToolTip": "CustomerRegisterationFlow.Application\\DTOs\\Customers\\Validator\\BaseCustomerDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T12:57:05.849Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{79664857-03bf-4bca-aa54-ec998b3328f8}"
             }
           ]
         }

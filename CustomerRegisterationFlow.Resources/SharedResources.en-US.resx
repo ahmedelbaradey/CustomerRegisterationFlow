@@ -117,25 +117,112 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="EmptyEmailValidation" xml:space="preserve">
-    <value>Eamil is Required</value>
-  </data>
   <data name="EmptyICNumberValidation" xml:space="preserve">
     <value>ICNumber Required</value>
   </data>
   <data name="EmptyIdValidation" xml:space="preserve">
-    <value />
+    <value>Id is Required</value>
   </data>
   <data name="EmptyPINCodeValidation" xml:space="preserve">
-    <value />
+    <value>PIN Code is Required</value>
   </data>
   <data name="ExistICNumberValidation" xml:space="preserve">
-    <value />
+    <value>IC Number Exist before</value>
   </data>
   <data name="HasAcceptedTerms" xml:space="preserve">
-    <value />
+    <value>Terms must accepted </value>
   </data>
   <data name="MinimumDigitsPINCodeValidation" xml:space="preserve">
-    <value />
+    <value>PIN Code must 6 digits</value>
+  </data>
+  <data name="MaximumDigitsPINCodeValidation" xml:space="preserve">
+    <value>PIN Code must 6 digits</value>
+  </data>
+  <data name="ExistCustomerEmailValidation" xml:space="preserve">
+    <value>Email is Exist</value>
+  </data>
+  <data name="EmptyCustomerNameValidtion" xml:space="preserve">
+    <value>Customer Name is Required</value>
+  </data>
+  <data name="EmptyCustomerPhoneValidation" xml:space="preserve">
+    <value>Customer Phone is Required</value>
+  </data>
+  <data name="ExistCustomerPhoneValidation" xml:space="preserve">
+    <value>Phone is Exist</value>
+  </data>
+  <data name="EmptyCustomerEmailValidation" xml:space="preserve">
+    <value>Wrong Email</value>
+  </data>
+  <data name="EmptyTOTPValidation" xml:space="preserve">
+    <value>TOTP is Requied</value>
+  </data>
+  <data name="MaximumDigitsTOTPValidation" xml:space="preserve">
+    <value>TOTP Maximium 4 digits</value>
+  </data>
+  <data name="MinimumDigitsTOTPValidation" xml:space="preserve">
+    <value>TOTP Minimum 4 digits</value>
+  </data>
+  <data name="NotValidOrExpiredTOTPValidation" xml:space="preserve">
+    <value>TOTP is not Valid or Expired</value>
+  </data>
+  <data name="NotValidPINCodeValidation" xml:space="preserve">
+    <value>PIN Code is wrong</value>
+  </data>
+  <data name="TOTPExpireAfter" xml:space="preserve">
+    <value>and will expire after 120 Seconds</value>
+  </data>
+  <data name="CustomerCreationFailed" xml:space="preserve">
+    <value>Customer Creation Failed</value>
+  </data>
+  <data name="PhoneTOTPIs" xml:space="preserve">
+    <value>Phone TOTP is :</value>
+  </data>
+  <data name="MaximumCharsCustomerNameValidtion" xml:space="preserve">
+    <value>Name length cannot exceed 50 charachters</value>
+  </data>
+  <data name="TheCustomerWithICNumber" xml:space="preserve">
+    <value>The customer with ICNumber: </value>
+  </data>
+  <data name="DoesntExist" xml:space="preserve">
+    <value>doesn't exist.</value>
+  </data>
+  <data name="PINCodeUpdated" xml:space="preserve">
+    <value>PIN Code Updated</value>
+  </data>
+  <data name="PINCodeCreationFailed" xml:space="preserve">
+    <value>PIN Code Creation Failed</value>
+  </data>
+  <data name="BiometricLoginEnabledSucessfully" xml:space="preserve">
+    <value>Biometric Login Enabled Sucessfully</value>
+  </data>
+  <data name="BiometricLoginEnabledFailed" xml:space="preserve">
+    <value>Biometric Login Enabled Failed</value>
+  </data>
+  <data name="TermsAcceptedSucessfully" xml:space="preserve">
+    <value>Terms Accepted Sucessfully</value>
+  </data>
+  <data name="TermsAcceptedFailed" xml:space="preserve">
+    <value>Terms Accepted Failed</value>
+  </data>
+  <data name="EmailVerirfiedSucessfully" xml:space="preserve">
+    <value>Email Verified Successfully</value>
+  </data>
+  <data name="EmailVerificationFailed" xml:space="preserve">
+    <value>Email Verification Failed</value>
+  </data>
+  <data name="PhoneVerifiedAndEmailTOTPIs" xml:space="preserve">
+    <value>Phone Verified And Email TOTP is : </value>
+  </data>
+  <data name="PhoneVerificationFailed" xml:space="preserve">
+    <value>Phone Verification Failed</value>
+  </data>
+  <data name="PINCodeVerirfiedSucessfully" xml:space="preserve">
+    <value>PIN Code Verified Successfully</value>
+  </data>
+  <data name="PINCodeVerificationFailed" xml:space="preserve">
+    <value>PIN Code Verification Failed</value>
+  </data>
+  <data name="ValidEmailValidation" xml:space="preserve">
+    <value>Please Add Valid Email</value>
   </data>
 </root>

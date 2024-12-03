@@ -117,28 +117,112 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="EmptyEmailValidation" xml:space="preserve">
-    <value>البريد الألكترونى مطلوب</value>
-  </data>
   <data name="EmptyICNumberValidation" xml:space="preserve">
     <value>رقم العميل مطلوب</value>
   </data>
   <data name="EmptyIdValidation" xml:space="preserve">
-    <value />
+    <value>Id is Required</value>
   </data>
   <data name="EmptyPINCodeValidation" xml:space="preserve">
-    <value />
+    <value>الرقم السرى مطلوب</value>
   </data>
   <data name="ExistICNumberValidation" xml:space="preserve">
-    <value />
+    <value>رقم العميل موجود من قبل</value>
   </data>
   <data name="HasAcceptedTerms" xml:space="preserve">
-    <value />
+    <value>يرجى قبول الشروط </value>
   </data>
   <data name="MaximumDigitsPINCodeValidation" xml:space="preserve">
-    <value />
+    <value>الرقم السرى لا يجب ان يزيد عن 6 ارقام فقط</value>
   </data>
   <data name="MinimumDigitsPINCodeValidation" xml:space="preserve">
-    <value />
+    <value>الرقم السرى لا يجب ان يقل عن  6 ارقام فقط</value>
+  </data>
+  <data name="EmptyCustomerNameValidtion" xml:space="preserve">
+    <value>اسم العميل مطلوب</value>
+  </data>
+  <data name="EmptyCustomerPhoneValidation" xml:space="preserve">
+    <value>رقم الهاتف مطلوب</value>
+  </data>
+  <data name="ExistCustomerPhoneValidation" xml:space="preserve">
+    <value>رقم الهاتف موجود من قبل</value>
+  </data>
+  <data name="EmptyCustomerEmailValidation" xml:space="preserve">
+    <value>البريد الإلكترونى مطلوب</value>
+  </data>
+  <data name="ExistCustomerEmailValidation" xml:space="preserve">
+    <value>البريد الإلكترونى موجود من قبل</value>
+  </data>
+  <data name="EmptyTOTPValidation" xml:space="preserve">
+    <value>الرقم مطلوب</value>
+  </data>
+  <data name="MaximumDigitsTOTPValidation" xml:space="preserve">
+    <value>الرقم لا يجب ان يزيد عن 4 ارقام فقط</value>
+  </data>
+  <data name="MinimumDigitsTOTPValidation" xml:space="preserve">
+    <value>الرقم لا يجب ان يقل عن 4 ارقام فقط</value>
+  </data>
+  <data name="NotValidOrExpiredTOTPValidation" xml:space="preserve">
+    <value>الرقم خاطئ او انتهت صلاحيته</value>
+  </data>
+  <data name="NotValidPINCodeValidation" xml:space="preserve">
+    <value>الرقم السرى خاطئ</value>
+  </data>
+  <data name="CustomerCreationFailed" xml:space="preserve">
+    <value>لم تتم إضافة العميل</value>
+  </data>
+  <data name="PhoneTOTPIs" xml:space="preserve">
+    <value>الرقم المتغير هو :</value>
+  </data>
+  <data name="TOTPExpireAfter" xml:space="preserve">
+    <value>وستنتهى صلاحيته بعد 120 ثانية</value>
+  </data>
+  <data name="PINCodeUpdated" xml:space="preserve">
+    <value>تم تغيير الرقم السرى بنجاح</value>
+  </data>
+  <data name="PINCodeCreationFailed" xml:space="preserve">
+    <value>فشل تغيير الرقم السرى</value>
+  </data>
+  <data name="BiometricLoginEnabledSucessfully" xml:space="preserve">
+    <value>تم تفعيل الدخول بالبصمة</value>
+  </data>
+  <data name="BiometricLoginEnabledFailed" xml:space="preserve">
+    <value>فشل تفعيل الدخول بالبصمة</value>
+  </data>
+  <data name="TermsAcceptedSucessfully" xml:space="preserve">
+    <value>تم قبول الشروط</value>
+  </data>
+  <data name="TermsAcceptedFailed" xml:space="preserve">
+    <value>فشل قبول الشروط</value>
+  </data>
+  <data name="EmailVerirfiedSucessfully" xml:space="preserve">
+    <value>تم التأكد من البريد الإلكتروني</value>
+  </data>
+  <data name="EmailVerificationFailed" xml:space="preserve">
+    <value>فشل التأكد من البريد الإلكتروني</value>
+  </data>
+  <data name="PhoneVerifiedAndEmailTOTPIs" xml:space="preserve">
+    <value>تم التأكد من رقم الهاتف و كود تفعيل البريد الإلكتروني هو : </value>
+  </data>
+  <data name="PhoneVerificationFailed" xml:space="preserve">
+    <value>فشل التأكد من البريد الهاتف</value>
+  </data>
+  <data name="PINCodeVerirfiedSucessfully" xml:space="preserve">
+    <value>تم التأكد من الرقم السري</value>
+  </data>
+  <data name="PINCodeVerificationFailed" xml:space="preserve">
+    <value>فشل التأكد من الرقم السري</value>
+  </data>
+  <data name="MaximumCharsCustomerNameValidtion" xml:space="preserve">
+    <value>لا يجب ان يزيد طول الاسم عن 50 حرف</value>
+  </data>
+  <data name="ValidEmailValidation" xml:space="preserve">
+    <value>يرجى إضافة بريد إلكتروني صالح</value>
+  </data>
+  <data name="TheCustomerWithICNumber" xml:space="preserve">
+    <value>العميل برقم : </value>
+  </data>
+  <data name="DoesntExist" xml:space="preserve">
+    <value>غير موجود</value>
   </data>
 </root>

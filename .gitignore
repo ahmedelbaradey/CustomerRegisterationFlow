@@ -1,7 +1,7 @@
-.vs
-.ssh
 .cache
-obj/
+.vs/
+*.suo
+*.user
+_ReSharper.*
 bin/
-bin
-obj
+obj/
