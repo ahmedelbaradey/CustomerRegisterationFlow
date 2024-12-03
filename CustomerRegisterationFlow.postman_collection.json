@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "612b2ec4-0702-45fb-8041-cab469cb2bf6",
 		"name": "CustomerRegisterationFlow",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "5429344",
 		"_collection_link": "https://www.postman.com/ahmedelbaradey/workspace/task-net/collection/5429344-612b2ec4-0702-45fb-8041-cab469cb2bf6?action=share&source=collection_link&creator=5429344"
 	},
@@ -26,6 +26,12 @@
 						"key": "Accept",
 						"value": "application/json",
 						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US",
+						"description": "ar-EG or en-US",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -37,7 +43,17 @@
 						}
 					}
 				},
-				"url": "{{host}}/api/Customer/Register"
+				"url": {
+					"raw": "{{host}}/api/Customer/Register",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"Register"
+					]
+				}
 			},
 			"response": [
 				{
@@ -70,7 +86,19 @@
 								}
 							}
 						},
-						"url": "https://localhost:5001/api/Customer/Register"
+						"url": {
+							"raw": "https://localhost:5001/api/Customer/Register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"Customer",
+								"Register"
+							]
+						}
 					},
 					"status": "Created",
 					"code": 201,
@@ -142,7 +170,17 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/Customer/Register"
+						"url": {
+							"raw": "{{host}}/api/Customer/Register",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"Register"
+							]
+						}
 					},
 					"status": "Bad Request",
 					"code": 400,
@@ -214,7 +252,17 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/Customer/Register"
+						"url": {
+							"raw": "{{host}}/api/Customer/Register",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"Register"
+							]
+						}
 					},
 					"status": "Bad Request",
 					"code": 400,
@@ -286,7 +334,17 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/Customer/Register"
+						"url": {
+							"raw": "{{host}}/api/Customer/Register",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"Register"
+							]
+						}
 					},
 					"status": "Unprocessable Entity",
 					"code": 422,
@@ -349,18 +407,34 @@
 						"key": "Accept",
 						"value": "application/json",
 						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US",
+						"description": "ar-EG or en-US",
+						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"4289\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "{{host}}/api/Customer/VerifyPhone"
+				"url": {
+					"raw": "{{host}}/api/Customer/VerifyPhone",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"VerifyPhone"
+					]
+				}
 			},
 			"response": [
 				{
@@ -386,14 +460,26 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"8645\"\r\n}",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"4289\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "https://localhost:5001/api/Customer/VerifyPhone"
+						"url": {
+							"raw": "https://localhost:5001/api/Customer/VerifyPhone",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"Customer",
+								"VerifyPhone"
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -465,7 +551,17 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/Customer/VerifyPhone"
+						"url": {
+							"raw": "{{host}}/api/Customer/VerifyPhone",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"VerifyPhone"
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -528,6 +624,12 @@
 						"key": "Accept",
 						"value": "application/json",
 						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US",
+						"description": "ar-EG or en-US",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -539,81 +641,19 @@
 						}
 					}
 				},
-				"url": "{{host}}/api/Customer/VerifyEmail"
+				"url": {
+					"raw": "{{host}}/api/Customer/VerifyEmail",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"VerifyEmail"
+					]
+				}
 			},
 			"response": [
-				{
-					"name": "3- Verify_Email_NotValid_Or_Expired_TOTP",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "api-version",
-								"value": "2.0",
-								"type": "text"
-							},
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							},
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"6168\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "https://localhost:5001/api/Customer/VerifyEmail"
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
-						{
-							"key": "Content-Length",
-							"value": "186"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						},
-						{
-							"key": "Date",
-							"value": "Mon, 02 Dec 2024 10:06:24 GMT"
-						},
-						{
-							"key": "Server",
-							"value": "Kestrel"
-						},
-						{
-							"key": "api-supported-versions",
-							"value": "2.0"
-						},
-						{
-							"key": "X-Rate-Limit-Limit",
-							"value": "1m"
-						},
-						{
-							"key": "X-Rate-Limit-Remaining",
-							"value": "199"
-						},
-						{
-							"key": "X-Rate-Limit-Reset",
-							"value": "2024-12-02T10:07:24.6091581Z"
-						}
-					],
-					"cookie": [],
-					"body": "{\n    \"requestId\": \"04294b02-e090-4594-8102-b51260b72c37\",\n    \"code\": 304,\n    \"message\": \"Email Verification Failed\",\n    \"status\": false,\n    \"sentDate\": \"2024-12-02\",\n    \"errors\": [\n        \"TOTP not valid or expired\"\n    ],\n    \"id\": 0\n}"
-				},
 				{
 					"name": "3- Verify_Email_Success",
 					"originalRequest": {
@@ -644,7 +684,17 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/Customer/VerifyEmail"
+						"url": {
+							"raw": "{{host}}/api/Customer/VerifyEmail",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"VerifyEmail"
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -685,6 +735,90 @@
 					],
 					"cookie": [],
 					"body": "{\n    \"code\": 204,\n    \"message\": \"Email Verirfied Sucessfully\",\n    \"status\": true,\n    \"sentDate\": \"2024-12-02\",\n    \"id\": 5\n}"
+				},
+				{
+					"name": "3- Verify_Email_NotValid_Or_Expired_TOTP",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"TOTP\":\"6168\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/Customer/VerifyEmail",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"Customer",
+								"VerifyEmail"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "186"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 10:06:24 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "199"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T10:07:24.6091581Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"requestId\": \"04294b02-e090-4594-8102-b51260b72c37\",\n    \"code\": 304,\n    \"message\": \"Email Verification Failed\",\n    \"status\": false,\n    \"sentDate\": \"2024-12-02\",\n    \"errors\": [\n        \"TOTP not valid or expired\"\n    ],\n    \"id\": 0\n}"
 				}
 			]
 		},
@@ -707,6 +841,12 @@
 						"key": "Accept",
 						"value": "application/json",
 						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US",
+						"description": "ar-EG or en-US",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -718,9 +858,130 @@
 						}
 					}
 				},
-				"url": "{{host}}/api/Customer/AcceptTerms"
+				"url": {
+					"raw": "{{host}}/api/Customer/AcceptTerms",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"AcceptTerms"
+					]
+				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "4- Accept_Terms_Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":2,\r\n    \"HasAcceptedTerms\":true\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/Customer/AcceptTerms",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"AcceptTerms"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 14:50:03 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "ARRAffinity=a6e48b9e9d2653435be7b61998d8624b44115214104213d6c8b8c526cc56dc70;Path=/;HttpOnly;Secure;Domain=apinet8.azurewebsites.net"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "ARRAffinitySameSite=a6e48b9e9d2653435be7b61998d8624b44115214104213d6c8b8c526cc56dc70;Path=/;HttpOnly;SameSite=None;Secure;Domain=apinet8.azurewebsites.net"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=2592000"
+						},
+						{
+							"key": "Request-Context",
+							"value": "appId="
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "199"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T14:51:02.3450823Z"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 204,\n    \"message\": \"Terms Accepted Sucessfully\",\n    \"status\": true,\n    \"sentDate\": \"2024-12-02\",\n    \"id\": 2\n}"
+				}
+			]
 		},
 		{
 			"name": "5- Create_PIN",
@@ -741,6 +1002,12 @@
 						"key": "Accept",
 						"value": "application/json",
 						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US",
+						"description": "ar-EG or en-US",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -752,7 +1019,17 @@
 						}
 					}
 				},
-				"url": "{{host}}/api/Customer/CreatePIN"
+				"url": {
+					"raw": "{{host}}/api/Customer/CreatePIN",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"CreatePIN"
+					]
+				}
 			},
 			"response": [
 				{
@@ -785,7 +1062,19 @@
 								}
 							}
 						},
-						"url": "https://localhost:5001/api/Customer/CreatePIN"
+						"url": {
+							"raw": "https://localhost:5001/api/Customer/CreatePIN",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"Customer",
+								"CreatePIN"
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -857,7 +1146,17 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/Customer/CreatePIN"
+						"url": {
+							"raw": "{{host}}/api/Customer/CreatePIN",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"CreatePIN"
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -920,6 +1219,12 @@
 						"key": "Accept",
 						"value": "application/json",
 						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US",
+						"description": "ar-EG or en-US",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -931,7 +1236,17 @@
 						}
 					}
 				},
-				"url": "{{host}}/api/Customer/VerifyPIN"
+				"url": {
+					"raw": "{{host}}/api/Customer/VerifyPIN",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"VerifyPIN"
+					]
+				}
 			},
 			"response": [
 				{
@@ -964,7 +1279,19 @@
 								}
 							}
 						},
-						"url": "https://localhost:5001/api/Customer/VerifyPIN"
+						"url": {
+							"raw": "https://localhost:5001/api/Customer/VerifyPIN",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"Customer",
+								"VerifyPIN"
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -1036,7 +1363,17 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/Customer/VerifyPIN"
+						"url": {
+							"raw": "{{host}}/api/Customer/VerifyPIN",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"VerifyPIN"
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -1099,6 +1436,12 @@
 						"key": "Accept",
 						"value": "application/json",
 						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US",
+						"description": "ar-EG or en-US",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -1110,9 +1453,122 @@
 						}
 					}
 				},
-				"url": "{{host}}/api/Customer/EnableBiometricLogin"
+				"url": {
+					"raw": "{{host}}/api/Customer/EnableBiometricLogin",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"EnableBiometricLogin"
+					]
+				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "7- Enable_BiometricLogin_Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "api-version",
+								"value": "2.0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":5,\r\n    \"IsBiometricLoginEnabled\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/Customer/EnableBiometricLogin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"EnableBiometricLogin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 02 Dec 2024 15:09:25 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=2592000"
+						},
+						{
+							"key": "Request-Context",
+							"value": "appId=cid-v1:3881b5e8-30f7-4a8d-bab3-f21370633155"
+						},
+						{
+							"key": "api-supported-versions",
+							"value": "2.0"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "199"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-12-02T15:10:22.8005690Z"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 204,\n    \"message\": \"BiometricLogin Enabled Sucessfully\",\n    \"status\": true,\n    \"sentDate\": \"2024-12-02\",\n    \"id\": 5\n}"
+				}
+			]
 		},
 		{
 			"name": "8- Customer_Login",
@@ -1178,6 +1634,12 @@
 						"key": "Accept",
 						"value": "application/json",
 						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US",
+						"description": "ar-EG or en-US",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -1189,7 +1651,17 @@
 						}
 					}
 				},
-				"url": "{{host}}/api/Customer/Login"
+				"url": {
+					"raw": "{{host}}/api/Customer/Login",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"Customer",
+						"Login"
+					]
+				}
 			},
 			"response": [
 				{
@@ -1222,7 +1694,19 @@
 								}
 							}
 						},
-						"url": "https://localhost:5001/api/Customer/Login"
+						"url": {
+							"raw": "https://localhost:5001/api/Customer/Login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"Customer",
+								"Login"
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -1294,7 +1778,17 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/Customer/Login"
+						"url": {
+							"raw": "{{host}}/api/Customer/Login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"Login"
+							]
+						}
 					},
 					"status": "OK",
 					"code": 200,
@@ -1366,7 +1860,17 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/Customer/Login"
+						"url": {
+							"raw": "{{host}}/api/Customer/Login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Customer",
+								"Login"
+							]
+						}
 					},
 					"status": "Unprocessable Entity",
 					"code": 422,
