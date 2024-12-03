@@ -68,7 +68,8 @@ o	Postman tests, can be found in postman collection for Customer_Login request
  
 
  𝐀𝐝𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥 𝐓𝐨𝐨𝐥𝐬 & 𝐏𝐚𝐭𝐭𝐞𝐫𝐧𝐬
-
+ 
+ ➡ Fully Resources and Localization 
  ➡ 𝐂𝐮𝐬𝐭𝐨𝐦 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧𝐬 
 
  ➡ Best practices in 𝐃𝐃𝐃 and 𝐎𝐎𝐏
