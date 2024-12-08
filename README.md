@@ -6,7 +6,6 @@ Production Api: https://apinet8.azurewebsites.net
 
 Postman collection : https://www.postman.com/ahmedelbaradey/task-net/
 
-Swagger : https://apinet8.azurewebsites.net/swagger/index.html
 
 Pre-requisites: Visual Studio 2022 & .Net 8.0
 
